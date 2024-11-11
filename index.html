@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>四湾岛旅游指南</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="/">四湾岛</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">关于四湾岛</a></li>
+                <li><a href="#travel">旅游信息</a></li>
+                <li><a href="#accommodation">住宿</a></li>
+                <li><a href="#activities">活动</a></li>
+                <li><a href="#tips">旅游贴士</a></li>
+                <li><a href="#contact">联系我们</a></li>
+                <li><a href="#blog">博客</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 主页横幅 -->
+    <header class="hero">
+        <!-- 添加浮动元素容器 -->
+        <div class="floating-elements">
+            <div class="floating-element fish1"></div>
+            <div class="floating-element fish2"></div>
+        </div>
+        
+        <!-- 添加气泡效果 -->
+        <div class="bubbles">
+            <div class="bubble" style="left: 10%; animation-delay: 0s;"></div>
+            <div class="bubble" style="left: 30%; animation-delay: 2s;"></div>
+            <div class="bubble" style="left: 50%; animation-delay: 4s;"></div>
+            <div class="bubble" style="left: 70%; animation-delay: 6s;"></div>
+            <div class="bubble" style="left: 90%; animation-delay: 8s;"></div>
+        </div>
+
+        <!-- 添加螃蟹雕塑展示 -->
+        <div class="landmark-showcase">
+            <div class="landmark-image">
+                <img src="images/crab-statue.jpg" alt="Dataran Sungai Rengit 地标性螃蟹雕塑" />
+            </div>
+            <div class="landmark-text">
+                <h2>Dataran Sungai Rengit</h2>
+                <p>标志性的巨型螃蟹雕塑，象征着当地丰富的海洋资源和渔业文化</p>
+            </div>
+        </div>
+
+        <div class="hero-content">
+            <h1>欢迎来到四湾岛</h1>
+            <p>探索热带天堂的无限魅力</p>
+        </div>
+        <div class="image-carousel">
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                    <img src="images/fishing-village-1.jpg" alt="传统渔村日出" />
+                    <div class="slide-caption">晨曦中的四湾岛渔村</div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="images/fishing-village-2.jpg" alt="渔民作业场景" />
+                    <div class="slide-caption">当地渔民的传统捕鱼作业</div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="images/fishing-village-3.jpg" alt="渔村夕阳" />
+                    <div class="slide-caption">落日下的渔村风光</div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="images/fishing-village-4.jpg" alt="渔村夜景" />
+                    <div class="slide-caption">夜幕下的渔村灯火</div>
+                </div>
+            </div>
+            <button class="carousel-button prev">&lt;</button>
+            <button class="carousel-button next">&gt;</button>
+        </div>
+    </header>
+
+    <!-- 主要内容区域 -->
+    <main>
+        <!-- 关于四湾岛 -->
+        <section id="about">
+            <h2>关于四湾岛</h2>
+            <div class="about-content">
+                <div class="geography">
+                    <h3>地理位置</h3>
+                    <div class="geography-content">
+                        <div class="map-container">
+                            <!-- 这里可以嵌入 Google 地图或其他地图服务 -->
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1019879.3910165963!2d101.5!3d4.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNMKwMzAnMDAuMCJOIDEwMcKwMzAnMDAuMCJF!5e0!3m2!1szh-CN!2s!4v1234567890!5m2!1szh-CN!2s" 
+                                width="100%" 
+                                height="450" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy">
+                            </iframe>
+                        </div>
+                        <div class="location-description">
+                            <p>四湾岛位于马来西亚东海岸，是彭亨州（Pahang）著名的度假胜地之一。这座迷人的岛屿坐落在南中国海上，距离关丹（Kuantan）海岸约32公里。</p>
+                            
+                            <h4>地理特征：</h4>
+                            <ul>
+                                <li>总面积：约39平方公里</li>
+                                <li>最高点：海拔约607米</li>
+                                <li>海岸线：绵延约25公里</li>
+                            </ul>
+
+                            <h4>周边环境：</h4>
+                            <ul>
+                                <li>北部：面向南中国海，拥有绝美的白沙滩</li>
+                                <li>南部：茂密的热带雨林</li>
+                                <li>东部：珊瑚礁群，适合潜水和浮潜</li>
+                                <li>西部：临近马来西亚大陆，设有码头</li>
+                            </ul>
+
+                            <h4>交通连接：</h4>
+                            <p>游客可以从关丹码头乘坐渡轮到达，航程约45分钟。此外，岛上设有小型机场，可接待国内航班。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="history">
+                    <h3>历史背景</h3>
+                    <div class="history-content">
+                        <div class="history-image">
+                            <div class="image-grid">
+                                <figure class="history-photo">
+                                    <img src="images/old-fishing-village.jpg" alt="早期渔村��貌" />
+                                    <figcaption>1950年代的四湾岛渔村</figcaption>
+                                </figure>
+                                <figure class="history-photo">
+                                    <img src="images/colonial-period.jpg" alt="殖民时期的四湾岛" />
+                                    <figcaption>英国殖民时期的码头</figcaption>
+                                </figure>
+                                <figure class="history-photo">
+                                    <img src="images/war-relics.jpg" alt="二战遗迹" />
+                                    <figcaption>二战时期的防御工事遗迹</figcaption>
+                                </figure>
+                                <figure class="history-photo">
+                                    <img src="images/traditional-culture.jpg" alt="传统文化" />
+                                    <figcaption>传统马来渔民作业场景</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="history-text">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <h4>早期历史</h4>
+                                    <p>四湾岛最早的居民是马来渔民，他们在岛上建立了传统的渔村。岛上丰富的海洋资源和独特的地理位置，使其成为古代航海贸易路线上的重要补给站。</p>
+                                </div>
+
+                                <div class="timeline-item">
+                                    <h4>殖民时期</h4>
+                                    <p>在英国殖民统治时期（19世纪-20世纪初），四湾岛因其战略位置成为英国东印度公司的重要停靠点。当时的英国水手们将这里描述为"东方的明珠"。</p>
+                                </div>
+
+                                <div class="timeline-item">
+                                    <h4>二战时期</h4>
+                                    <p>第二次世界大战期间，四湾岛曾短暂被日军占领，并建立了军事基地。战后遗留的部分防御工事至今仍可在岛上找到。</p>
+                                </div>
+
+                                <div class="timeline-item">
+                                    <h4>现代发展</h4>
+                                    <p>1970年代起，马来西亚政府开始大力发展四湾岛的旅游业。从最初的背包客目的地，逐步发展成为今天的国际知名度假胜地。</p>
+                                </div>
+
+                                <div class="timeline-item">
+                                    <h4>文化传承</h4>
+                                    <p>岛上至今保留着独特的马来渔村文化，当地居民仍然保持着传统的生活方式。每年的传统节日庆典吸引着众多游客前来体验原真的马来文化。</p>
+                                </div>
+                            </div>
+
+                            <div class="cultural-significance">
+                                <h4>文化意义</h4>
+                                <ul>
+                                    <li>传统渔业文化的活态保护区</li>
+                                    <li>马来西亚海洋文化的重要见证</li>
+                                    <li>东海岸传统手工艺的传承基地</li>
+                                    <li>本土文化与现代旅游业和谐发展典范</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nature">
+                    <h3>自然环境</h3>
+                    <div class="nature-content">
+                        <div class="nature-gallery">
+                            <div class="gallery-grid">
+                                <figure class="nature-photo">
+                                    <img src="images/beach-scenery.jpg" alt="四湾岛海滩风光" />
+                                    <figcaption>水晶般清澈的海水和细腻的白沙滩</figcaption>
+                                </figure>
+                                <figure class="nature-photo">
+                                    <img src="images/rainforest.jpg" alt="热带雨林" />
+                                    <figcaption>原始茂密的热带雨林</figcaption>
+                                </figure>
+                                <figure class="nature-photo">
+                                    <img src="images/coral-reef.jpg" alt="珊瑚礁" />
+                                    <figcaption>丰富多彩的珊瑚礁生态系统</figcaption>
+                                </figure>
+                                <figure class="nature-photo">
+                                    <img src="images/wildlife.jpg" alt="野生动物" />
+                                    <figcaption>丰富的野生动物资源</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        
+                        <div class="nature-description">
+                            <div class="climate">
+                                <h4>气候特征</h4>
+                                <p>四湾岛属于典型的热带气候，全年温暖湿润：</p>
+                                <ul>
+                                    <li>年平均气温：26-32°C</li>
+                                    <li>最佳旅游季节：3月至10月</li>
+                                    <li>雨季：11月至2月</li>
+                                    <li>海水温度：平均24-29°C</li>
+                                </ul>
+                            </div>
+
+                            <div class="ecosystem">
+                                <h4>生态系统</h4>
+                                <div class="eco-item">
+                                    <h5>海洋生态</h5>
+                                    <ul>
+                                        <li>超过500种珊瑚物种</li>
+                                        <li>丰富的热带鱼类</li>
+                                        <li>海龟栖息地</li>
+                                        <li>原生红树林保护区</li>
+                                    </ul>
+                                </div>
+
+                                <div class="eco-item">
+                                    <h5>陆地生态</h5>
+                                    <ul>
+                                        <li>原始热带雨林</li>
+                                        <li>珍稀鸟类栖息地</li>
+                                        <li>独特的蝴蝶品种</li>
+                                        <li>热带植物多样性</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="conservation">
+                                <h4>环境保护</h4>
+                                <p>四湾岛实施严格的环境保护措施：</p>
+                                <ul>
+                                    <li>海洋公园保护区的建立</li>
+                                    <li>珊瑚礁修复计划</li>
+                                    <li>海龟保护项目</li>
+                                    <li>可持续旅游发展政策</li>
+                                </ul>
+                            </div>
+
+                            <div class="activities-note">
+                                <h4>自然体验活动</h4>
+                                <ul>
+                                    <li>专业导览生态徒步</li>
+                                    <li>珊瑚礁浮潜观察</li>
+                                    <li>夜间热带雨林探索</li>
+                                    <li>观鸟和野生动物摄影</li>
+                                    <li>海龟保育体验</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 其他部分将按照大纲继续展开... -->
+    </main>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="footer-content">
+            <div class="contact-info">
+                <h3>联系方式</h3>
+                <!-- 联系信息 -->
+            </div>
+            <div class="social-links">
+                <h3>关注我们</h3>
+                <!-- 社交媒体链接 -->
+            </div>
+            <div class="quick-links">
+                <h3>快速链接</h3>
+                <!-- 快速导航链接 -->
+            </div>
+        </div>
+    </footer>
+
+    <!-- 在 body 结束标签前添加 -->
+    <script src="script.js"></script>
+</body>
+</html> 
