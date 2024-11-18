@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>四湾岛旅游指南</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/chat.css">
 </head>
 <body>
     <!-- 导航栏 -->
@@ -130,7 +131,7 @@
                         <div class="history-image">
                             <div class="image-grid">
                                 <figure class="history-photo">
-                                    <img src="images/old-fishing-village.jpg" alt="早期渔村��貌" />
+                                    <img src="images/old-fishing-village.jpg" alt="早期渔村" />
                                     <figcaption>1950年代的四湾岛渔村</figcaption>
                                 </figure>
                                 <figure class="history-photo">
@@ -166,7 +167,7 @@
 
                                 <div class="timeline-item">
                                     <h4>现代发展</h4>
-                                    <p>1970年代起，马来西亚政府开始大力发展四湾岛的旅游业。从最初的背包客目的地，逐步发展成为今天的国际知名度假胜地。</p>
+                                    <p>1970年代起，马来西亚政府开始大力发展四湾岛的旅游业。从最初的背客目的地，逐步发展成为今天的国际知名度假胜地。</p>
                                 </div>
 
                                 <div class="timeline-item">
@@ -260,7 +261,7 @@
                             <div class="activities-note">
                                 <h4>自然体验活动</h4>
                                 <ul>
-                                    <li>专业导览生态徒步</li>
+                                    <li>专业导生态徒步</li>
                                     <li>珊瑚礁浮潜观察</li>
                                     <li>夜间热带雨林探索</li>
                                     <li>观鸟和野生动物摄影</li>
@@ -273,10 +274,27 @@
             </div>
         </section>
 
-        <!-- 其他部分将按照大纲继续展开... -->
+        <!-- AI聊天助手 -->
+        <div class="chat-widget">
+            <div class="chat-header">
+                <h3>AI旅游助手</h3>
+                <button id="toggleChat">展开/收起</button>
+            </div>
+            <div class="chat-container" id="chatContainer">
+                <div class="chat-box" id="chatBox">
+                    <div class="message ai-message">
+                        您好！我是四湾岛AI旅游助手，请问有什么可以帮您？
+                    </div>
+                </div>
+                <div class="chat-input">
+                    <input type="text" id="userInput" placeholder="请输入您的问题...">
+                    <button onclick="sendMessage()">发送</button>
+                </div>
+            </div>
+        </div>
     </main>
 
-    <!-- 页脚 -->
+    <!-- 页 -->
     <footer>
         <div class="footer-content">
             <div class="contact-info">
@@ -296,5 +314,6 @@
 
     <!-- 在 body 结束标签前添加 -->
     <script src="script.js"></script>
+    <script src="js/chat.js"></script>
 </body>
 </html> 
